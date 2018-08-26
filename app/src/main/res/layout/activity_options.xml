@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".options">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/lnr_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ctg_margin_top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Hotels"
+                android:layout_width="@dimen/ctg_img_view_width"
+                android:layout_height="@dimen/ctg_img_view_height"
+                android:background="@drawable/btn_bg"
+                android:contentDescription="@string/optn_1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel" />
+
+            <TextView
+                android:layout_width="@dimen/ctg_txt_view_width"
+                android:layout_height="wrap_content"
+                android:text="@string/optn_1"
+                android:textAlignment="center"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/ctg_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Nightlife"
+                android:layout_width="@dimen/ctg_img_view_width"
+                android:layout_height="@dimen/ctg_img_view_height"
+                android:layout_marginLeft="@dimen/ctg_margin_left_start"
+                android:layout_marginStart="@dimen/ctg_margin_left_start"
+                android:background="@drawable/btn_bg"
+                android:contentDescription="@string/optn_2"
+                android:scaleType="centerInside"
+                android:src="@drawable/cocktail" />
+
+            <TextView
+                android:layout_width="@dimen/ctg_txt_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ctg_margin_left_start"
+                android:layout_marginStart="@dimen/ctg_margin_left_start"
+                android:text="@string/optn_2"
+                android:textAlignment="center"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/ctg_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/lnr_layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lnr_layout_1"
+        android:layout_marginTop="@dimen/ctg_margin_top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/shopping"
+                android:layout_width="@dimen/ctg_img_view_width"
+                android:layout_height="@dimen/ctg_img_view_height"
+                android:background="@drawable/btn_bg"
+                android:contentDescription="@string/optn_3"
+                android:scaleType="centerInside"
+                android:src="@drawable/shopping" />
+
+            <TextView
+                android:layout_width="@dimen/ctg_txt_view_width"
+                android:layout_height="wrap_content"
+                android:text="@string/optn_3"
+                android:textAlignment="center"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/ctg_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/restaurants"
+                android:layout_width="@dimen/ctg_img_view_width"
+                android:layout_height="@dimen/ctg_img_view_height"
+                android:layout_marginLeft="@dimen/ctg_margin_left_start"
+                android:layout_marginStart="@dimen/ctg_margin_left_start"
+                android:background="@drawable/btn_bg"
+                android:contentDescription="@string/optn_4"
+                android:scaleType="centerInside"
+                android:src="@drawable/restaurants" />
+
+            <TextView
+                android:layout_width="@dimen/ctg_txt_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ctg_margin_left_start"
+                android:layout_marginStart="@dimen/ctg_margin_left_start"
+                android:text="@string/optn_4"
+                android:textAlignment="center"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/ctg_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/lnr_layout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lnr_layout_2"
+        android:layout_marginTop="@dimen/ctg_margin_top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/popular"
+                android:layout_width="@dimen/ctg_img_view_width"
+                android:layout_height="@dimen/ctg_img_view_height"
+                android:background="@drawable/btn_bg"
+                android:contentDescription="@string/optn_5"
+                android:scaleType="centerInside"
+                android:src="@drawable/popular" />
+
+            <TextView
+                android:layout_width="@dimen/ctg_txt_view_width"
+                android:layout_height="wrap_content"
+                android:text="@string/optn_5"
+                android:textAlignment="center"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/ctg_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/culture"
+                android:layout_width="@dimen/ctg_img_view_width"
+                android:layout_height="@dimen/ctg_img_view_height"
+                android:layout_marginLeft="@dimen/ctg_margin_left_start"
+                android:layout_marginStart="@dimen/ctg_margin_left_start"
+                android:background="@drawable/btn_bg"
+                android:contentDescription="@string/optn_6"
+                android:scaleType="centerInside"
+                android:src="@drawable/culture" />
+
+            <TextView
+                android:layout_width="@dimen/ctg_txt_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ctg_margin_left_start"
+                android:layout_marginStart="@dimen/ctg_margin_left_start"
+                android:text="@string/optn_6"
+                android:textAlignment="center"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/ctg_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

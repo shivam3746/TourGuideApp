@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="headline">App Headline</string>
+
+    <!--................Name of 3* Hotels...............-->
+    <string name="htl_1">PS International Hotel</string>
+    <string name="htl_2">Ginger Hotel</string>
+    <string name="htl_3">Golden Orchid</string>
+    <string name="htl_4">Deep Awadh</string>
+    <string name="htl_5">Ivyy Stays</string>
+    <string name="htl_6">Royal Inn</string>
+    <string name="htl_7">La place Sarovar Portico</string>
+
+    <!--................Name of 4* Hotels...............-->
+    <string name="htl_8">Hotel Silvette</string>
+    <string name="htl_9">Fortune Park BBD</string>
+    <string name="htl_10">Hotel Savvy Grand</string>
+    <string name="htl_11">Levana Suites</string>
+    <string name="htl_12">Dayal Paradise</string>
+    <string name="htl_13">Golden Tulip</string>
+    <string name="htl_14">Cygnett Park di Arch</string>
+    <string name="htl_15">Vijay Paradise</string>
+    <string name="htl_16">Hotel Revanta</string>
+
+    <!--................Name of 5* Hotels...............-->
+    <string name="htl_17">Hyatt Regency</string>
+    <string name="htl_18">Radisson</string>
+    <string name="htl_19">Ramada</string>
+    <string name="htl_20">Novotel</string>
+    <string name="htl_21">Renaissance</string>
+    <string name="htl_22">Clarks Avadh</string>
+    <string name="htl_23">Vivanta by Taj</string>
+    <string name="htl_24">The Piccadily</string>
+    <string name="htl_25">Lebua</string>
+
+    <!--................Option Menu...............-->
+    <string name="optn_1">Hotels</string>
+    <string name="optn_2">NightLife</string>
+    <string name="optn_3">Shopping</string>
+    <string name="optn_4">Restaurants</string>
+    <string name="optn_5">Popular</string>
+    <string name="optn_6">Culture</string>
+
+    <!--................Cities Name...............-->
+    <string name="ct_1">New Delhi</string>
+    <string name="ct_2">Kolkata</string>
+    <string name="ct_3">Lucknow</string>
+    <string name="ct_4">Bengaluru</string>
+    <string name="ct_5">Mumbai</string>
+    <string name="ct_6">Jaipur</string>
+
+    <!--................Login Page...............-->
+    <string name="lp_1">CityGuide</string>
+    <string name="lp_2">Login</string>
+    <string name="lp_3">Facebook</string>
+    <string name="lp_4">Forgot password?</string>
+    <string name="email_icon">EmailIcon</string>
+    <string name="pwrd_icon">PasswordIcon</string>
+    <string name="email_hint">Email</string>
+    <string name="pwrd_hint">Password</string>
+
+    <!--................Hotel List...............-->
+    <string name="hotel_image_content_desc">Hotel Image</string>
+
+    <!--................NightLife...............-->
+    <string name="n1">Zero Degree</string>
+    <string name="n2">Aura Bar</string>
+    <string name="n3">Mirage Lounge</string>
+    <string name="n4">The Jail Cafe</string>
+    <string name="n5">Sky Bar</string>
+    <string name="nightlife_img_desc">Bar Image</string>
+
+    <!--................Shopping...............-->
+    <string name="s1">SaharaGanj Mall</string>
+    <string name="s2">Fun Republic Mall</string>
+    <string name="s3">Phoenix United Mall</string>
+    <string name="s4">Bigg Bazaar</string>
+    <string name="shopping_img_desc">Shopping Center Image</string>
+
+    <!--................Restaurants...............-->
+    <string name="r1">All Day Dining</string>
+    <string name="r2">The Babian</string>
+    <string name="r3">Barbeque Nation</string>
+    <string name="r4">Chung Fa</string>
+    <string name="r5">Ritz Continental</string>
+    <string name="r6">Percusion</string>
+    <string name="restaurant_img_desc">Restaurant Image</string>
+
+    <!--................Popular...............-->
+    <string name="p1">Tokri Chaat</string>
+    <string name="p2">Rogan Josh</string>
+    <string name="p3">Malai Ki Gilori</string>
+    <string name="p4">Lucknawi Biryani</string>
+    <string name="p5">Prakash Ki Kulfi</string>
+    <string name="p6">Sheermals</string>
+    <string name="popular_img_desc">Popular Things Image</string>
+
+    <string name="Toast_msg">Sorry,Currently Unavailable</string>
+
+    <string name="historicPlace">Explore Lucknow’s golden past by visiting these fascinating heritage sites and monuments in the city.</string>
+    <string name="link1"><a href="https://timesofindia.indiatimes.com/travel/lucknow/travel-guide/the-fascinating-lucknow-heritage-trail/gs48277318.cms">Read Full Article</a></string>
+    <string name="chikankaari">Lucknow is one of the fastest growing cities in India whose Chikan embroidery. Here is a list of the 4 best places to shop for Chikan work in Lucknow.</string>
+    <string name="link2"><a href="https://www.yatrablog.com/best-places-to-shop-for-chikankari-in-lucknow">Read Full Article</a></string>
+    <string name="food">The Land of Nawabs and Awadhi cuisine, Lucknow is a total foodie\'\s paradise! From kebabs to paans to biryanis, wander around in the city for a day or two and you'll never know which narrow alley takes you to food heaven.</string>
+    <string name="link3"><a href="https://www.scoopwhoop.com/inothernews/lucknow-food/#.k6nfszril">Read Full Article</a></string>
+
+    <string name="d1">cultureDesc1</string>
+    <string name="d2">cultureDesc2</string>
+    <string name="d3">cultureDesc3</string>
+</resources>

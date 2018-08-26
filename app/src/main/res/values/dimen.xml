@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cities_list_layout_margin">20dp</dimen>
+    <dimen name="cities_list_txt_size">18sp</dimen>
+
+    <dimen name="ctg_img_view_width">100dp</dimen>
+    <dimen name="ctg_img_view_height">100dp</dimen>
+    <dimen name="ctg_margin_left_start">37dp</dimen>
+    <dimen name="ctg_margin_top">30dp</dimen>
+    <dimen name="ctg_text_size">18sp</dimen>
+    <dimen name="ctg_txt_view_width">100dp</dimen>
+
+    <dimen name="lpg_bg_width">330dp</dimen>
+    <dimen name="lpg_bg_height">160dp</dimen>
+    <dimen name="btn_width">330dp</dimen>
+    <dimen name="btn_height">50dp</dimen>
+    <dimen name="fp_margin_bottom">10dp</dimen>
+    <dimen name="fp_text_size">15sp</dimen>
+    <dimen name="btn_txt_size">18sp</dimen>
+    <dimen name="heading_view_margin_top">18dp</dimen>
+    <dimen name="head_text_view_margin_top">60dp</dimen>
+    <dimen name="login_btn_margin_top">350dp</dimen>
+    <dimen name="fb_btn_margin_top">420dp</dimen>
+    <dimen name="head_text_view_txt_size">40sp</dimen>
+    <dimen name="password_icon_height">35dp</dimen>
+    <dimen name="email_icon_height">35dp</dimen>
+    <dimen name="password_lnr_lyt_marginTop">10dp</dimen>
+    <dimen name="email_lnr_lyt_marginTop">25dp</dimen>
+    <dimen name="email_field_layout_height">50dp</dimen>
+    <dimen name="email_field_layout_width">200dp</dimen>
+    <dimen name="password_field_layout_height">50dp</dimen>
+    <dimen name="password_field_layout_width">200dp</dimen>
+
+    <dimen name="cities_list_layout_height">500dp</dimen>
+    <dimen name="hotel_list_model_img_view_height">100dp</dimen>
+    <dimen name="hotel_list_model_img_view_width">100dp</dimen>
+    <dimen name="hotel_list_model_txt_view_margin_left_start">20dp</dimen>
+
+    <dimen name="shoppingCenter_img_height">100dp</dimen>
+    <dimen name="shoppingCenter_img_width">100dp</dimen>
+    <dimen name="shoppingCenter_txt_margin_Left_Start">20dp</dimen>
+    <dimen name="shoppingCenter_txt_size">18sp</dimen>
+
+    <dimen name="restaurant_img_height">100dp</dimen>
+    <dimen name="restaurant_img_width">100dp</dimen>
+    <dimen name="restaurant_txt_margin_Left_Start">20dp</dimen>
+    <dimen name="restaurant_txt_size">18sp</dimen>
+
+    <dimen name="nightlife_img_height">100dp</dimen>
+    <dimen name="nightlife_img_width">100dp</dimen>
+    <dimen name="nightlife_txt_margin_Left_Start">20dp</dimen>
+    <dimen name="nightlife_txt_size">18sp</dimen>
+
+    <dimen name="popular_img_height">100dp</dimen>
+    <dimen name="popular_img_width">100dp</dimen>
+    <dimen name="popular_txt_margin_Left_Start">20dp</dimen>
+    <dimen name="popular_txt_size">18sp</dimen>
+
+    <dimen name="cv1_marginTop">10dp</dimen>
+    <dimen name="remaining_cv_marginTop">20dp</dimen>
+    <dimen name="cv_margin_Left_Right_Start_End">10dp</dimen>
+    <dimen name="cv_textSize">20sp</dimen>
+    <dimen name="cv_inner_component_marginTop">5dp</dimen>
+    <dimen name="cv_img_height">100dp</dimen>
+    <dimen name="list_items_textView_marginTop">30dp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Culture">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginLeft="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginRight="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginStart="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginTop="@dimen/cv1_marginTop"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/historic_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cv_img_height"
+                    android:contentDescription="@string/d1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/historicplace" />
+
+                <TextView
+                    android:id="@+id/desc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cv_inner_component_marginTop"
+                    android:text="@string/historicPlace"
+                    android:textSize="@dimen/cv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/historicLucknow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cv_inner_component_marginTop"
+                    android:text="@string/link1"
+                    android:textColor="@color/ctg_text_color"
+                    android:textSize="@dimen/cv_textSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/cv_margin_Left_Right_Start_End"
+        android:layout_marginLeft="@dimen/cv_margin_Left_Right_Start_End"
+        android:layout_marginRight="@dimen/cv_margin_Left_Right_Start_End"
+        android:layout_marginStart="@dimen/cv_margin_Left_Right_Start_End"
+        android:layout_marginTop="@dimen/remaining_cv_marginTop"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/chikan_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cv_img_height"
+                android:contentDescription="@string/d2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chikankari" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cv_inner_component_marginTop"
+                android:text="@string/chikankaari"
+                android:textSize="@dimen/cv_textSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/specialityLucknow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cv_inner_component_marginTop"
+                android:text="@string/link2"
+                android:textColor="@color/ctg_text_color"
+                android:textSize="@dimen/cv_textSize"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginLeft="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginRight="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginStart="@dimen/cv_margin_Left_Right_Start_End"
+            android:layout_marginTop="@dimen/remaining_cv_marginTop"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/food_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cv_img_height"
+                    android:contentDescription="@string/d3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/food" />
+
+                <TextView
+                    android:id="@+id/desc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cv_inner_component_marginTop"
+                    android:text="@string/food"
+                    android:textSize="@dimen/cv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/foodyLucknow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cv_inner_component_marginTop"
+                    android:text="@string/link3"
+                    android:textColor="@color/ctg_text_color"
+                    android:textSize="@dimen/cv_textSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
